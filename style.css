@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+background: #544E61;
+background: linear-gradient(360deg,rgba(84, 78, 97, 1) 10%, rgba(103, 89, 122, 1) 30%, rgba(110, 136, 148, 1) 100%);
+
+}
+
+header h1{
+   font-size: 4rem;
+   text-align: center;
+   color: rgb(241, 241, 241);
+}
+
+
+
+article{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 1rem;
+   padding: 2rem;
+ 
+
+border-radius: 1rem;
+
+background-color: #85BAA1;
+
+}
+
+label{
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+
+article input{
+    width: 100%;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+
+    font-size: 1.2rem;
+    
+
+    border-radius:1rem;
+    border: 2px #CEEDDB solid
+
+}
+
+
+
